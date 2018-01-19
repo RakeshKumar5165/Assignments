@@ -1,0 +1,34 @@
+<html>
+<head>
+<script src = "NameNum.js"></script>
+<style>
+.ex1 {
+    margin-left: 10px;
+}
+</style>
+</head>
+<body>
+   <input type="checkbox" name="number" value="checkbox" id="numbercheckbox" onchange="checkbox()" >Select if input is Number<br>
+   ENTER: <input name="enter" type="text" style="display:block" id="entertext"><br>
+          <input name="enter" type="number" style="display:none" id="enternumber"><br>
+  <br>
+  <form style="display:block" id="gender">
+  <input type="radio" name="gender" id="male" value="male" > Male<br>
+  <input type="radio" name="gender" id="female" value="female"> Female<br>
+   </form> 
+   <br>
+  <button class="ex1" type="button" onclick="evaluateinput()" id="analyze"  >Analyze</button>
+  
+  <p  id="disp"></p>
+
+  
+  
+  <table style="width:100%; display:none" id="table">
+  <tr>
+    <th>name</th>
+    <th>gender</th> 
+    <th>description</th>
+  </tr>
+ </table>
+ </body>
+</html>
